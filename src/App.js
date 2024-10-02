@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import AppLayout from './layout/AppLayout';
+import Homepage from './pages/Homepage/Homepage';
+import MoviePage from './pages/Movies/MoviePage';
+import MovieDetailPage from './pages/MovieDetail/MovieDetailPage';
+import NotFoundPage from './pages/NotFoundpage/NotFoundPage';
 
 // 홈페이지 /
 // 영화 전체 보여주는 페이지 (서치) /movies
